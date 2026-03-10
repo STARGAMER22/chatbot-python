@@ -40,7 +40,7 @@ class Chatbot2:
         # Questions factuelles simples
         if "ton nom" in normalise or "qui es-tu" in normalise:
             self.dernier_sujet = "identite"
-            return "Je suis Chatbot 2.0, un assistant conversationnel Python."
+            return "Je suis Chatbot 2.0, un assistant conversationnel Python créé par STARGAMER22."
 
         if "aide" in normalise or "que peux-tu faire" in normalise:
             self.dernier_sujet = "aide"
